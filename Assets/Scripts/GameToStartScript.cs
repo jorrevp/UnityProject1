@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RetryGame : MonoBehaviour
+public class GameToStartScript : MonoBehaviour
 {
-
-    public void LoadGame()
+    public void GoBackToStart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("StartScene");
     }
 }
